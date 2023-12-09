@@ -1,7 +1,5 @@
 create database db_universidad;
 use db_universidad;
-drop database db_universidad;
-
 
 create table departamento(
 id_departamento integer(10) primary key not null,
@@ -85,7 +83,8 @@ insert into asignatura(id_asignatura,nombre,creditos,tipo,curso,cuatrimestre,id_
 (3,'programacion',5.2,'basica',12,23,1,1),(4,'programacion',5.2,'basica',12,23,1,1),(5,'programacion',5.2,'basica',12,23,1,1);
 insert into alumno_se_matricula_asignatura(id_alumno,id_asignatura,id_curso_escolar)values(1,1,1001),(2,1,1001),(3,1,1001),(4,1,1001),(5,1,1001);
 
-  
+
+DESCRIBE departamento;
   
  
  
