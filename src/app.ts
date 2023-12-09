@@ -4,7 +4,7 @@ import  morgan from 'morgan'
 //Routes}
 
 import IndexRoutes from "./routes/index.routes";
-import PostRoutes from "./routes/post.routes";
+import PostRoutes from "./routes/departamento.routes";
 
 export class App{
 
@@ -27,7 +27,7 @@ export class App{
 
     routes(){
         this.app.use(IndexRoutes)
-        this.app.use('/posts', PostRoutes)
+        this.app.use('/departamento', PostRoutes)
     }
 
 

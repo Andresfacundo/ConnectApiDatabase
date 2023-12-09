@@ -1,4 +1,4 @@
-// export interface departamento{
-//     id_departamento?:string;
-//     nombre:string;
-// }
+export interface departamento{
+    id_departamento?:string;
+    nombre:string;
+}
